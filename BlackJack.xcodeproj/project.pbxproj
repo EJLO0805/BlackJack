@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5367CC8928C1AF6A0089E705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367CC8828C1AF6A0089E705 /* AppDelegate.swift */; };
 		5367CC8B28C1AF6A0089E705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367CC8A28C1AF6A0089E705 /* SceneDelegate.swift */; };
-		5367CC8D28C1AF6A0089E705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367CC8C28C1AF6A0089E705 /* ViewController.swift */; };
+		5367CC8D28C1AF6A0089E705 /* BlacJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367CC8C28C1AF6A0089E705 /* BlacJackViewController.swift */; };
 		5367CC9028C1AF6A0089E705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5367CC8E28C1AF6A0089E705 /* Main.storyboard */; };
 		5367CC9228C1AF6C0089E705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367CC9128C1AF6C0089E705 /* Assets.xcassets */; };
 		5367CC9528C1AF6C0089E705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5367CC9328C1AF6C0089E705 /* LaunchScreen.storyboard */; };
+		5367CC9D28C1D8B80089E705 /* BlackJackStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5367CC9C28C1D8B80089E705 /* BlackJackStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5367CC8528C1AF6A0089E705 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5367CC8828C1AF6A0089E705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5367CC8A28C1AF6A0089E705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5367CC8C28C1AF6A0089E705 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5367CC8C28C1AF6A0089E705 /* BlacJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlacJackViewController.swift; sourceTree = "<group>"; };
 		5367CC8F28C1AF6A0089E705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5367CC9128C1AF6C0089E705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5367CC9428C1AF6C0089E705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5367CC9628C1AF6C0089E705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5367CC9C28C1D8B80089E705 /* BlackJackStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				5367CC8828C1AF6A0089E705 /* AppDelegate.swift */,
 				5367CC8A28C1AF6A0089E705 /* SceneDelegate.swift */,
-				5367CC8C28C1AF6A0089E705 /* ViewController.swift */,
+				5367CC8C28C1AF6A0089E705 /* BlacJackViewController.swift */,
 				5367CC8E28C1AF6A0089E705 /* Main.storyboard */,
+				5367CC9C28C1D8B80089E705 /* BlackJackStruct.swift */,
 				5367CC9128C1AF6C0089E705 /* Assets.xcassets */,
 				5367CC9328C1AF6C0089E705 /* LaunchScreen.storyboard */,
 				5367CC9628C1AF6C0089E705 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5367CC8D28C1AF6A0089E705 /* ViewController.swift in Sources */,
+				5367CC8D28C1AF6A0089E705 /* BlacJackViewController.swift in Sources */,
 				5367CC8928C1AF6A0089E705 /* AppDelegate.swift in Sources */,
 				5367CC8B28C1AF6A0089E705 /* SceneDelegate.swift in Sources */,
+				5367CC9D28C1D8B80089E705 /* BlackJackStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
