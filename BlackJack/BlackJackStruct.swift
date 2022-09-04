@@ -45,5 +45,4 @@ struct BlackJack {
         }
         return cardsPoints
     }
-
 }
